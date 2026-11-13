@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" fill="none" role="img" aria-label="selected work"><style>
+.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Inter",Helvetica,Arial,sans-serif}
+.up{opacity:0;animation:up .9s cubic-bezier(.16,1,.3,1) forwards}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.fade{opacity:0;animation:fade 1s ease forwards}
+@keyframes fade{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation-duration:0s!important;animation-delay:0s!important}}
+</style>
+<defs><linearGradient id="g"><stop offset="0" stop-color="#c8ff3c" stop-opacity="0"/><stop offset=".5" stop-color="#c8ff3c"/><stop offset="1" stop-color="#c8ff3c" stop-opacity="0"/></linearGradient></defs>
+<text x="0" y="38" class="m up" font-size="14" fill="#f7f8f8"><tspan fill="#c8ff3c">03</tspan>  selected work</text>
+<line x1="161" y1="33" x2="1200" y2="33" stroke="#1d1f23"/>
+<rect x="205" y="32.5" width="160" height="1.5" fill="url(#g)"><animate attributeName="x" values="45;1200" dur="5s" repeatCount="indefinite"/></rect>
+<circle cx="1196" cy="33" r="3" fill="#c8ff3c"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle></svg>
